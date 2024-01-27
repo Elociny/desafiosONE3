@@ -244,3 +244,22 @@ a {
         gap: 15px;
     }
 }
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+    background: var(--bege-claro);
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+    background-color: var(--bege-claro);
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: var(--roxo);
+}
