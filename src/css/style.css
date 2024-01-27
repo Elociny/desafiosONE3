@@ -1,0 +1,246 @@
+/* IMPORT DA FONT INTER */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* RESET CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* VARIAVEIS DE COR E FONTE */
+:root {
+    --bege-claro: #e9cfaa;
+    --cinza-escuro: #202020;
+    --roxo: #2f003f;
+    --laranja-claro: #f3c75f;
+    --laranja: #ff8006;
+    --vermelho: #be0001;
+    
+    --cinza-escuro-opacidade: #202020d7;
+    --roxo-opacidade: #2f003f52;
+
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, var(--roxo), var(--laranja));
+
+    font-family: var(--fonte-principal);
+}
+
+/* CABEÇALHO */
+header {
+    padding-top: 30px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+    text-align: center;
+    color: var(--roxo);
+}
+
+/* MAIN */
+.container {
+    margin: 15px 100px;
+    padding: 20px;
+
+    border-radius: 2rem;
+
+    background: var(--roxo-opacidade);
+    backdrop-filter: blur(10px);
+
+    color: var(--bege-claro);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h2:not(:first-of-type) {
+    margin-top: 2rem; 
+    padding-top: 15px;
+
+    border-top: 1px dotted var(--bege-claro);
+}
+
+.respostas {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    padding: 5px 15px;
+    justify-content: space-between;
+
+    gap: 10px;
+}
+
+.inputGroup {
+    position: relative;
+
+    width: 70%;
+}
+
+input {
+    padding: 1rem;
+    margin: 5px 0;
+    background: none;
+    width: 100%;
+
+    font-size: 1rem;
+
+    border: .1rem solid var(--bege-claro);
+    color: var(--bege-claro);
+    border-top: none;
+    border-radius: .3rem;
+
+    outline: none;
+
+    transition: .5s;
+}
+
+input:focus ~ label, input:focus {
+    border-color: var(--laranja-claro);
+    color: var(--laranja-claro);
+}
+
+input~label {
+    transform: translateY(-50%)scale(.8);
+    font-size: 20px;
+}
+
+label {
+    position: absolute;
+    left: 16px;
+
+    color: var(--bege-claro);
+}
+
+.btn {
+    width: 18%;
+    padding: 1rem;
+
+    font-size: 18px;
+    color: var(--bege-claro);
+
+    border-radius: .3rem;
+
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: var(--laranja-claro);
+
+    color: var(--roxo);
+
+    border: none;
+
+    cursor: pointer;
+}
+
+.calcular {
+    background-color: var(--roxo);
+
+    border: none;
+}
+
+.limpar {
+    background: none;
+
+    border: .1rem solid var(--bege-claro);
+}
+
+.resultado {
+    margin: 10px 0;
+
+    font-size: 20px;
+}
+
+.resultado2 {
+    height: 1.5rem;
+}
+
+/* RODA PÉ */
+
+.rodaPe {
+    margin-top: 15px;
+    padding: 55px 84px 25px 84px;
+
+    background-color: var(--roxo);
+
+    color: var(--bege-claro);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redesSociais {
+    display: flex;
+    gap: 20px;
+}
+
+.rede {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    border: 1px solid var(--bege-claro);
+    border-radius: 5px;
+
+    padding: 7px;
+
+    transition: .5s;
+}
+
+.rede:hover {
+    background-color: var(--laranja);
+}
+
+.rede img {
+    width: 40px;
+}
+
+a {
+    color: var(--bege-claro);
+    text-decoration: none;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 770px) {
+    /* MAIN */
+    .container {
+        margin: 15px 10px;
+    }
+    
+    .respostas {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 0px;
+    }
+
+    .inputGroup {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .resultado2 {
+        height: auto;
+    }
+
+    /* RODA PÉ */
+    .rodaPe {
+        text-align: center;
+    }
+    
+    .rodaPe, .redesSociais {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 3 | Desafio 7</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Exercícios em JavaScript</h1>
+    </header>
+    
+    <main>
+        <div class="container">
+            <h2>Calcular IMC</h2>
+
+            <div class="respostas">
+                <div class="inputGroup">
+                    <input class="inp" type="number" id="peso">
+                    <label>Digite seu peso: </label>
+                </div>
+
+                <div class="inputGroup">
+                    <input class="inp" type="number" id="altura">
+                    <label>Digite sua altura: </label>
+                </div>
+                <button class="btn calcular" onclick="calcularIMC()" id="IMC">Calcular</button>
+                <button class="btn limpar" onclick="limparCampos('resp', 'peso', 'altura')">Limpar</button>
+            </div>
+            <p class="resultado resultado2" id="resp"></p>
+
+
+            <h2>Fatorial</h2>
+
+            <div class="respostas">
+                <div class="inputGroup">
+                    <input type="number" name="" id="fatorial">
+                    <label for="">Digite um número: </label>
+                </div>
+
+                <button class="btn calcular" onclick="fatorial()">Calcular</button>
+                <button class="btn limpar" onclick="limparCampos('fat', 'fatorial')">Limpar</button>
+            </div>
+            <p class="resultado resultado2" id="fat"></p>
+
+            <h2>Conversor de dólar para real</h2>
+
+            <div class="respostas">
+                <div class="inputGroup">
+                    <input type="number" name="" id="dollar">
+                    <label for="">Quantidade em dólar: </label>
+                </div>
+                <button class="btn calcular" onclick="converterDollar()">Converter</button>
+                <button class="btn limpar" onclick="limparCampos('real', 'dollar')">Limpar</button>
+            </div>
+            <p class="resultado resultado2" id="real"></p>
+
+            <h2>Área e Perimetro de um Retângulo</h2>
+
+            <div class="respostas">
+                <div class="inputGroup">
+                    <input type="number" name="" id="alturaRetangulo">
+                    <label for="">Digite a altura: </label>
+                </div>
+                <div class="inputGroup">
+                    <input type="number" name="" id="largura">
+                    <label for="">Digite a base: </label>
+                </div>
+
+                <button class="btn calcular" onclick="areaPerimetro()">Calcular</button>
+                <button class="btn limpar"
+                    onclick="limparCampos('areaPerimetro', 'alturaRetangulo', 'largura')">Limpar</button>
+            </div>
+            <p class="resultado resultado2" id="areaPerimetro"></p>
+
+            <h2>Área e Perimetro de uma Circunferencia</h2>
+
+            <div class="respostas">
+                <div class="inputGroup">
+                    <input type="number" name="" id="raio">
+                    <label for="">Raio da circunferência: </label>
+                </div>
+                <button class="btn calcular" onclick="areaPerimetroCirculo()">Calcular</button>
+                <button class="btn limpar" onclick="limparCampos('areaPerimetroCirculo', 'raio')">Limpar</button>
+            </div>
+            <p class="resultado resultado2" id="areaPerimetroCirculo"></p>
+
+            <h2>Tabuada</h2>
+
+            <div class="respostas">
+                <div class="inputGroup">
+                    <input type="number" name="" id="tabuada">
+                    <label for="">Digite um número: </label>
+                </div>
+                <button class="btn calcular" onclick="tabuada()">Calcular</button>
+                <button class="btn limpar" onclick="limparCampos('textoTabuada', 'tabuada')">Limpar</button>
+            </div>
+            <p class="resultado" id="textoTabuada"></p>
+        </div>
+    </main>
+
+    <footer class="rodaPe">
+        <p>Desenvolvido por Nicole | Projeto ONE T6</p>
+
+        <div class="redesSociais">
+            <a href="https://www.linkedin.com/in/nicolelinscoelho" target="_blank" class="rede">
+                <img src="./src/img/linkedin.svg" alt="Logo do LinkedIn">
+                <p>LinkedIn</p>
+            </a>
+
+            <a href="https://github.com/Elociny" target="_blank" class="rede">
+                <img src="./src/img/github.svg" alt="Logo do GitHub">
+                <p>GitHub</p>
+            </a>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
