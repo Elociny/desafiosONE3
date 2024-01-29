@@ -21,7 +21,11 @@ O projeto foi criado com HTML5 e estilizado com CSS3, e para as funcionalidades 
 
 ## Identidade Visual 👁️
 
-A identidade visual deste projeto é simples e intuitiva e completamente responsiva.
+A identidade visual deste projeto é simples e intuitiva e completamente responsiva. 
+
+**Cores:** As cores deste projeto foram escolhidas por serem cores complementares, o que significa que estão opostas no círculo cromático. Essa combinação cria um contraste forte e dinâmico, tornando os elementos da plataforma facilmente distinguíveis.
+
+**Fonte:** A fonte Inter foi escolhida pelo seu foco em proporcionar uma excelente legibilidade, especialmente em tamanhos menores, o que a torna ideal para texto em interfaces digitais, como aplicativos e websites.
 
 ![Gif da plataforma em desktop](https://i.imgur.com/BYyAbpg.gif)
 
