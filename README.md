@@ -1,5 +1,7 @@
 # Desafios | Challenge ONE 🌐
 
+> Staus: Em desenvolvimento ⚠️
+
 ## O que é este projeto? 🚀
 
 Este projeto é uma lista de desafios básicos em JavaScript propostos pelo Programa ONE. Nele há uma série de funções básicas para treinar a lógica, como por exemplo:
