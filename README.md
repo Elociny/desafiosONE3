@@ -3,9 +3,13 @@
 > Staus: Em desenvolvimento ⚠️
 
 *******
-Sumário
+## Sumário
+
  1. [O que é este projeto?](#o-que-e-este-projeto)
  2. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+ 3. [Identidade Visual](#identidade-visual)
+ 4. [Link do Projeto](#link-do-projeto)
+ 5. [Agradecimentos](#agradecimentos)
 
 *******
 
@@ -32,6 +36,8 @@ O projeto foi criado com HTML5 e estilizado com CSS3, e para as funcionalidades 
 - CSS
 - JavaScript
 
+<div id='identidade-visual' />
+
 ## Identidade Visual 👁️
 
 A identidade visual deste projeto é simples e intuitiva e completamente responsiva. 
@@ -42,9 +48,13 @@ A identidade visual deste projeto é simples e intuitiva e completamente respons
 
 ![gif](https://github.com/Elociny/desafiosONE3/assets/90219522/10c15a8f-ad61-428b-bff3-ed35128679d2)
 
+<div id='link-do-projeto' />
+
 ## Link do Projeto 🔗
 
 Este projeto foi colocado na web pelo próprio GitHub Pages no qual você pode vê-lo em qualquer dispositivo clicando [aqui](https://elociny.github.io/desafiosONE3/).
+
+<div id='agradecimentos' />
 
 ## Agradecimento 🙏
 
