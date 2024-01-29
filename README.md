@@ -29,7 +29,7 @@ A identidade visual deste projeto é simples e intuitiva e completamente respons
 
 **Fonte:** A fonte Inter foi escolhida pelo seu foco em proporcionar uma excelente legibilidade, especialmente em tamanhos menores, o que a torna ideal para texto em interfaces digitais, como aplicativos e websites.
 
-![Gif da plataforma em desktop](https://i.imgur.com/BYyAbpg.gif)
+![gif](https://github.com/Elociny/desafiosONE3/assets/90219522/10c15a8f-ad61-428b-bff3-ed35128679d2)
 
 ## Link do Projeto 🔗
 
