@@ -25,12 +25,12 @@
 
 Este projeto é uma lista de desafios básicos em JavaScript propostos pelo Programa ONE. Nele há uma série de funções básicas para treinar a lógica, como por exemplo:
 
-- Calcular IMC
-- Fatorial
-- Conversor de dólar para real
-- Área e Perímetro de um Retângulo
-- Área e Perímetro de uma Circunferência
-- Tabuada
+- Calcular IMC `O usuário informa seu peso e altura e apartir disso o programa calcula qual será seu IMC`
+- Fatorial `O usuário digita um número qualquer e o programa calcula seu fatorial`
+- Conversor de dólar para real `O usuário coloca um valor em dólar e o programa retorna esse valor em real`
+- Área e Perímetro de um Retângulo `O usuário põe a base e a altura de um retângulo qualquer e o programa retorna sua área`
+- Área e Perímetro de uma Circunferência `O usuário escreve o raio de uma circunferência qualquer e o programa retorna a área dessa circunferência`
+- Tabuada `O usuário digita um número qualquer e o programa retorna sua tabuada do 1 até o 10`
 
 <div id='tecnologias-utilizadas' />
 
