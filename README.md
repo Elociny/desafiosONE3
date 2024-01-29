@@ -1,4 +1,4 @@
-# Desafios | Challenge ONE 🌐
+# Desafios | ONE 🌐
 
 > Staus: Em desenvolvimento ⚠️
 
