@@ -2,6 +2,15 @@
 
 > Staus: Em desenvolvimento ⚠️
 
+*******
+Sumário
+ 1. [O que é este projeto?](#o-que-e-este-projeto)
+ 2. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+
+*******
+
+<div id='o-que-e-este-projeto' />
+
 ## O que é este projeto? 🚀
 
 Este projeto é uma lista de desafios básicos em JavaScript propostos pelo Programa ONE. Nele há uma série de funções básicas para treinar a lógica, como por exemplo:
@@ -12,6 +21,8 @@ Este projeto é uma lista de desafios básicos em JavaScript propostos pelo Prog
 - Área e Perímetro de um Retângulo
 - Área e Perímetro de uma Circunferência
 - Tabuada
+
+<div id='tecnologias-utilizadas' />
 
 ## Tecnologias Utilizadas 🛠️
 
